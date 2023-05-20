@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility Classes */
+.text-Center {
+    text-align: center;
+}
+
+.bg-Red {
+    background-color: red;
+}
+
+.text-Orange {
+    color: rgb(248, 154, 12);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.box {
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.box .inner-box {
+    width: 50%;
+    margin: 5px;
+    /* background-color: chocolate; */
+}
+
+.todo-form {
+    margin: 10px;
+    width: 100%;
+}
+
+#todo-input {
+    width: 300px;
+    padding: 4px;
+    border-radius: 4px;
+
+}
+
+#add-button {
+    width: 70px;
+    padding: 4px;
+    color: aliceblue;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    color: red;
+    background-color: aliceblue;
+    border: 1px solid red;
+}
+
+
+.task-count {
+    margin: 10px;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.todo-item label {
+    margin-left: 5px;
+}
+
+.todo-item.completed label {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-item button {
+    margin-left: 10px;
+}
